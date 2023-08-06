@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes</title>
+</head>
+<body>
+<h1>Notes</h1>
+<ul>
+    {% for note in notes %}
+    <li>{{ note }}</li>
+    {% endfor %}
+</ul>
+<a href="/create">Create a note</a>
+</body>
+</html>
